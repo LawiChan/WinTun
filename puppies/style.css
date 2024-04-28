@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
+
+
+h1 {
+    font-family: 'dancing script', cursive ;
+    text-align: center;
+    font-size: 4em;
+    text-shadow:30px #ffd700;
+    color: rgb(172, 101, 10);
+
+}
+
+h2, h3 {
+    text-shadow:30px #ffd700;
+    color: #a52a2a;
+    font-style: italic;
+}
+
+nav {
+    background-color: #ffd700;
+    line-height:3.5em;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav  a {
+    text-decoration: none;
+    padding-right:5px; 
+    padding-left: 5px;
+}
+
+nav li {
+    display: inline;
+    
+}
+
+nav a:link {
+    color:#a52a2a;
+}
+
+nav a:visited {
+    color:#1f0303;
+}
+
+nav a:hover {
+    color:#0026ff;
+}
+
+nav a:active {
+    color:#009370;
+}
+
+.home-hero {
+    background-image: url(images/header.jpg);
+    height: 475px;
+    background-size: cover;
+    background-position: center;
+    color: aquamarine;
+    padding: 10px 10px 10px 30px;
+    border-radius: 20px;
+}
+
+.img-fluid {
+    border-radius: 40px;
+    margin: 5px;
+}
+
+blockquote{
+    border-left: 5px solid #e9cf11;
+    padding: 35px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+}
+
+main {
+    max-width: 1100px;
+    margin: 20px auto;
+}
+
+p {
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffd700;
+}
+  
+footer .fa {
+    font-size: 3em;
+    color: black;
+   
+}
+
+ /*CSS without a media query--applies to all sizes unless overridden*/
+h1{
+    font-size: 3em;
+}
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+h1{
+    font-size: 1.8em;
+}
+}
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+h1{
+    font-size: 1.5em;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+}
